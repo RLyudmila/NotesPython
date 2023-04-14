@@ -1,4 +1,4 @@
-import Note
+import Notepad
 
 
 def create_note(number):
@@ -6,7 +6,7 @@ def create_note(number):
         input('Введите Название заметки: '), number)
     body = check_len_text_input(
         input('Введите Описание заметки: '), number)
-    return Note.Note(title=title, body=body)
+    return Notepad.Note(title=title, body=body)
 
 
 def menu():
